@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+    color: #000;
+    width: 15rem;
+    height: 16rem;
+    background-color:orange;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    padding: 1rem;
+}
+.Name{
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #fff;
+    font-weight: 500;
+}
+.about > *{
+    font-weight: 700;
+    text-align: center;
+    line-height: 2rem;
+    font-size: larger;
+}
+.p-id{
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+    margin-top: 1rem;
+    padding-top: .5rem;
+    border-top: 1px solid #fff;
+}

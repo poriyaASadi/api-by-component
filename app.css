@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    flex-direction: column;
+}
+.contentn{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 35rem;  
+  grid-row-gap: 1rem;
+}
+.click{
+  color: #fff;
+  border: 2px solid #fff;
+  padding: .5rem;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
